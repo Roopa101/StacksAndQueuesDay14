@@ -63,7 +63,9 @@ namespace StacksQueues
                 Peek();
                 Pop();
             }
-            //this.top=null;
+            Console.WriteLine("Empty Stack");
+           
+          //  this.top=null;
         }
 
     }
