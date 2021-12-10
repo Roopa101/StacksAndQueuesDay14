@@ -12,11 +12,14 @@ namespace StacksQueues
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Queue linkedListQueue = new Queue();
+            LinkedListQueue linkedListQueue = new LinkedListQueue();
             linkedListQueue.Enqueue(56);
             linkedListQueue.Enqueue(30);
             linkedListQueue.Enqueue(70);
-            linkedListQueue.Display();// this.top=this.top.next
+
+           // linkedListQueue.Display();// this.top=this.top.next
+            linkedListQueue.Dequeue();
+            linkedListQueue.Display();
             Console.ReadKey();
         }
     }
